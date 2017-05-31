@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulaire O'clock</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<div id="root">
+			<div id="down"><img src="../images/arrow.svg" alt="arrow"></div>
+			<div id="arrow"><a href="#bottom">DESCENDRE</a></div>
+			<header id="header">
+				<img src="../images/logo.svg" alt="logo-Oclock" title="Logo Oclock">
+				<h1>Formulaire d'inscription à O'clock</h1>
+				<h2>Pour être vraiment étudiant chez O'clock, il faut savoir réaliser son propre<br>formulaire d'inscription en langage <strong>&#60html&#62 !</strong></h2>
+			</header>
+			<div id="container">
+				<form id="form" action="Mon-formulaire" method="post">
+					<div class="">
+						<p class="renseignement">Je soussigné(e),<INPUT type= "radio" name="tarif" value="jour"> Mme / <INPUT type= "radio" name="tarif" value="jour">M <label for="POST-name"></label>
+	  					<input id="POST-name" type="text" name="name"placeholder="Nom"> <label for="POST-name"></label>
+	  					<input id="POST-name" type="text" name="name" placeholder="Prénom">, je certifie avoir adoré
+						la première semaine de cours commençant le <select name="jours">
+						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select><select name="mois">
+						<option value="01">Janvier</option>
+						<option value="02">Février</option>
+						<option value="03">Mars</option>
+						<option value="04">Avril</option>
+						<option value="05">Mai</option>
+						<option value="06">Juin</option>
+						<option value="07">Juillet</option>
+						<option value="08">Août</option>
+						<option value="09">Septembre</option>
+						<option value="10">Octobre</option>
+						<option value="11">Novembre</option>
+					    <option value="12">Décembre</option>
+					</select><select name="annees">
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+					</select> . <p>
+					<p class="renseignement">Pour laisser un commentaire libre à propos d'O'clock, c'est par ici : </p>
+					</div>
+					<div class="renseignement">
+						<textarea name="textarea"rows="8" cols="30">
+						</textarea>
+					</div>
+					<div class="renseignement">
+					 	<input type="checkbox" id="cbox1" value="checkbox1">
+					 	Je certifie la véracité de ces informations.
+					</div>
+					<div class="renseignement">
+						<label for="password">Choississez un mot de passe : </label>
+						<input type="password" value="" placeholder="Mot de passe" id="new_pass">
+					</div>
+					<div class="renseignement">
+						<label for="password">Confirmer votre mot de passe : </label>
+						<input type="password" value="" placeholder="Mot de passe" id="new_pass_conf">
+					</div>
+					<div class="renseignement">
+						<p>Ajouter un fichier : <INPUT TYPE="hidden" NAME="MAX_FILE_SIZE" VALUE="204800">
+					<INPUT TYPE="file" NAME="fichier" SIZE=40></p>
+					</div>
+					<div class="renseignement">
+						<INPUT TYPE="submit" VALUE="GO !">
+					</div>
+				</form>
+			</div>
+			<p id="bottom">
+			Pour toute réclamation,<a href="mailto:joe@example.com?subject=feedback">c'est par ici</a> </p>
+			</p>
+		</div>
+	</body>
+</html>
